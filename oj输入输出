@@ -4,3 +4,58 @@ while True:
         print(sum(a))
     except:
         break
+
+while True:
+    try:
+        n = int(input())
+        for i in range(n):
+            a,b=map(int,input().split())
+            print(a+b)
+    except:
+        break
+
+while True:  
+    a, b = map(int, input().split())  
+    if a == 0 and b == 0:  
+        break  
+    print(a+b)  
+    
+    
+while True:  
+    try:  
+        data = list(map(int, input().split()))  
+        if data[0]==0:
+            break
+        n, array = data[0], data[1:]                
+        s = 0  
+        for i in range(n):  
+            s += array[i]  
+        print(s)
+    except:  
+        break  
+        
+while True:
+    try:
+        n = int(input())
+        for i in range(n):
+            a = list(map(int,input().split()))
+            n,arr=a[0],a[1:]
+            print(sum(arr))
+    except:
+        break
+
+while True:  
+    try:  
+        data = list(map(int, input().split()))  
+        n, arr = data[0], data[1:]                
+        print(sum(arr))  
+    except:  
+        break  
+
+while True:
+    try:
+        a = list(map(int,input().split()))
+        print(sum(a))
+    except:
+        break
+
